@@ -43,7 +43,7 @@ Enables and configures the disk plugin.
 ``collectd.ethstat``
 ------------
 
-Enables and configures the ethstat plugin.
+Enables and configures the ethstat plugin (please note `there is a possible bug in the debian package <https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=698584>`).
 
 ``collectd.interface``
 ------------
