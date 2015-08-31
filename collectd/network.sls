@@ -13,5 +13,5 @@ include:
     - watch_in:
       - service: collectd-service
     - defaults:
-        host: {{ salt['pillar.get']('collectd:plugins:network:host') }}
-        port: {{ salt['pillar.get']('collectd:plugins:network:port') }}
+        server: {{ salt['pillar.get']('collectd:plugins:network:server') }}
+        listen: {{ salt['pillar.get']('collectd:plugins:network:listen') }}
