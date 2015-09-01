@@ -51,3 +51,6 @@ collectd:
       IgnoreSelected: 'false'
     disk:
       matches: ['/^[hs]d[a-f][0-9]?$/']
+    write_graphite:
+      host: 127.0.0.1
+      port: 2003
